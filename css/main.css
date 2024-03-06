@@ -10,6 +10,7 @@ img {
     display: grid;
     grid-template-columns: auto auto;
     width: 500px;
+    grid-gap: 200px;
 }
 
 .subjectbox {
@@ -64,6 +65,7 @@ img {
     display: grid;
     grid-template-columns: auto auto;
     width: 100px;
+    grid-gap: 150px;
 }
 
 .row_Historie {
@@ -90,6 +92,7 @@ img {
 .container_Programering {
     display: grid;
     grid-template-columns: auto auto auto auto; 
+    grid-gap: 25px;
 }
 
 .row_Programering {
