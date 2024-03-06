@@ -8,16 +8,13 @@ img {
 
 .subjectContainer {
     display: grid;
-    grid-template-columns: auto auto auto;
-    border: 2px solid red
+    grid-template-columns: auto auto;
+    width: 500px;
 }
 
 .subjectbox {
-    border: 2px solid yellow
-}
-
-#middlebox {
-    border: 2px solid red
+    border: 2px solid black;
+    width: 500px;
 }
 
 .button {
@@ -63,13 +60,42 @@ img {
     text-decoration: underline;
 }
 
-.containerr {
+.container_Historie {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100px;
+}
+
+.row_Historie {
+    margin-bottom: 200px;
+    border: 5px solid black;
+}
+
+.row_Tekno {
+    width: 500px;
+    border: 5px solid black;
+}
+
+.container_Tekno {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 150px;
+}
+
+.row_Tekno_Tekst {    
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container_Programering {
     display: grid;
     grid-template-columns: auto auto auto auto; 
 }
 
-.roww {
-    margin-bottom: 200px;
-    text-align: center;
-    text-decoration: underline;
+.row_Programering {
+    border: 5px solid black;
+}
+
+.subject_Box {
+    border: 2px solid black;
 }
