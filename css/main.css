@@ -69,8 +69,9 @@ img {
 }
 
 .row_Historie {
-    margin-bottom: 200px;
+    margin-bottom: 25px;
     border: 5px solid black;
+    text-align: center;
 }
 
 .row_Tekno {
@@ -91,14 +92,39 @@ img {
 
 .container_Programering {
     display: grid;
-    grid-template-columns: auto auto auto auto; 
+    grid-template-columns: auto auto auto; 
     grid-gap: 25px;
 }
 
 .row_Programering {
     border: 5px solid black;
+    text-align: center;
+}
+
+.row_Programering img {
+    width: 400px;
 }
 
 .subject_Box {
     border: 2px solid black;
+}
+
+.container_Yrke {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+}
+
+.row_Yrke {
+    border:  5px solid black;
+    width: 375px;
+}
+
+.row_Yrke img {
+    width: 375px;
+}
+
+.row_Yrke_Tekst {
+    text-align: center;
+    text-decoration: underline;
 }
