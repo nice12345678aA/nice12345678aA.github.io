@@ -13,8 +13,12 @@ img {
     grid-gap: 200px;
 }
 
+.heim_Tekst {
+    margin: 50px;
+}
+
 .about {
-    margin: 25px;
+    margin: 50px;
 }
 
 .subjectbox {
@@ -75,6 +79,10 @@ img {
     grid-gap: 150px;
 }
 
+.container_Tekno_Tekst {
+    margin: 50px;
+}
+
 .row_Historie {
     margin-bottom: 25px;
     border: 5px solid black;
@@ -95,6 +103,7 @@ img {
 .row_Tekno_Tekst {    
     text-align: center;
     text-decoration: underline;
+
 }
 
 .container_Programering_Tekst {
