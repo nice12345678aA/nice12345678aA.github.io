@@ -7,23 +7,27 @@ img {
 }
 
 .subjectContainer {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 500px;
-    grid-gap: 200px;
+    display: flex;
+    grid-gap: 204.5px;
+}
+
+.subject_Box_Tekst {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.subject_Box {
+    display: flex;
+    margin-top: 50px;
 }
 
 .heim_Tekst {
-    margin: 50px;
+    padding: 25px;
 }
 
 .about {
-    margin: 50px;
-}
-
-.subjectbox {
-    border: 2px solid black;
-    width: 500px;
+    padding: 25px;
 }
 
 .button {
@@ -37,6 +41,7 @@ img {
 
 .topnav {
     background-color: black;
+    border-radius: 25px;
 }
 
 .topnav a {
@@ -51,6 +56,7 @@ img {
 .topnav a.active {
     background-color: green;
     color: yellow;
+    border-radius: 25px;
 }
 
 .D {
@@ -69,7 +75,7 @@ img {
 }
 
 .container_Historie_Tekst {
-    margin: 50px;
+    padding: 25px;
 }
 
 .container_Historie {
@@ -80,24 +86,23 @@ img {
 }
 
 .container_Tekno_Tekst {
-    margin: 50px;
+    padding: 25px;
 }
 
 .row_Historie {
     margin-bottom: 25px;
-    border: 5px solid black;
+    border: 2.5px solid black;
     text-align: center;
 }
 
 .row_Tekno {
-    width: 500px;
-    border: 5px solid black;
+    border: 2.5px solid black;
 }
 
 .container_Tekno {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
 }
 
 .row_Tekno_Tekst {    
@@ -107,7 +112,7 @@ img {
 }
 
 .container_Programering_Tekst {
-    margin: 50px;
+    padding: 25px;
 }
 
 .container_Programering {
@@ -117,7 +122,7 @@ img {
 }
 
 .row_Programering {
-    border: 5px solid black;
+    border: 2.5px solid black;
     text-align: center;
 }
 
@@ -135,8 +140,12 @@ img {
     grid-gap: 25px;
 }
 
+.container_Yrke_Tekst {
+    padding: 25px;
+}
+
 .row_Yrke {
-    border:  5px solid black;
+    border:  2.5px solid black;
     width: 375px;
 }
 
@@ -177,6 +186,11 @@ img {
     text-decoration: none;
     display: block;
   }
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
   
 .dropdown-content a:hover {background-color: #ddd;}
   
@@ -188,4 +202,5 @@ img {
     position: fixed;
     top: 0;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
   }
